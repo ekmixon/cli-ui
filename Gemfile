@@ -4,8 +4,8 @@ source 'https://rubygems.org'
 gemspec
 
 group :development, :test do
-  gem 'rubocop'
-  gem 'rubocop-shopify'
+  gem 'rubocop', '>= 1.16.0'
+  gem 'rubocop-shopify', '>= 2.2.0'
   gem 'byebug', platforms: [:mri]
   gem 'method_source'
 end
